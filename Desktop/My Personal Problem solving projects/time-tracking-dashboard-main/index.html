@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | Time tracking dashboard</title>
+
+</head>
+<body>
+  
+  <div class="grid-container">
+  
+  <div class="dashboard grid-item">
+  
+  <div class="jeremy-profile">
+  
+  <div class="image">
+    <img src="./images/image-jeremy.png" alt="jeremy's image">
+  </div>
+  
+  <div class="name">
+    <p>Report for</p>
+    <h2>Jeremy Robson</h2>
+  </div>
+  
+  </div>
+  
+  <div class="specified-period">
+  <p id="daily" class="">Daily</p>
+  <p id="weekly" class="active">Weekly</p>
+  <p id="monthly" class="">Monthly</p>
+  </div>
+  
+  </div>
+  
+  <!-- tasks -->
+  
+    <div class="work grid-item">
+  
+    <div class="image-work-icon img-container">
+      <img src="./images/icon-work.svg" alt="icon-work">
+    </div>
+    
+    <div class="work-dashborad">
+    
+    <div class="heading">
+      <p>Work</p>
+      <div class="ellipsis">
+        <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+          <path
+            d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+            fill="#BBC0FF" fill-rule="evenodd" />
+        </svg>
+      </div>
+    </div>
+    
+    <div class="timeframes">
+    <h2><span class="current-work">32hrs</span></h2>
+    <p>last week - <span class="previous-work">36hrs</span></p>
+    </div>
+    
+    </div>
+    
+  </div>
+
+    <div class="play grid-item">
+      <div class="image-play-icon img-container">
+        <img src="./images/icon-play.svg" alt="icon-play">
+      </div>
+      <div class="play-dashborad">
+        <div class="heading">
+          <p>play</p>
+          <div class="ellipsis">
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd" />
+            </svg>
+          </div>
+        </div>
+        <div class="timeframes">
+          <h2><span class="current-play">10hrs</span></h2>
+          <p>last week - <span class="previous-play">8hrs</span></p>
+        </div>
+      </div>
+    </div>
+  
+  
+    <div class="study grid-item">
+      <div class="image-study-icon img-container">
+        <img src="./images/icon-study.svg" alt="icon-study">
+      </div>
+      <div class="study-dashborad">
+        <div class="heading">
+          <p>study</p>
+          <div class="ellipsis">
+            <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+              <path
+                d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                fill="#BBC0FF" fill-rule="evenodd" />
+            </svg>
+          </div>
+        </div>
+        <div class="timeframes">
+          <h2><span class="current-study">4hrs</span></h2>
+          <p>last week - <span class="previous-study">7hrs</span></p>
+        </div>
+      </div>
+    </div>
+  
+
+      <div class="exercise grid-item">
+        <div class="image-exercise-icon img-container">
+          <img src="./images/icon-exercise.svg" alt="icon-exercise">
+        </div>
+        <div class="exercise-dashborad">
+          <div class="heading">
+            <p>exercise</p>
+            <div class="ellipsis">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF" fill-rule="evenodd" />
+              </svg>
+            </div>
+          </div>
+          <div class="timeframes">
+            <h2><span class="current-exercise">4hrs</span></h2>
+            <p>last week - <span class="previous-exercise">5hrs</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="social grid-item">
+        <div class="image-social-icon img-container">
+          <img src="./images/icon-social.svg" alt="icon-social">
+        </div>
+        <div class="social-dashborad">
+          <div class="heading">
+            <p>social</p>
+            <div class="ellipsis">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF" fill-rule="evenodd" />
+              </svg>
+            </div>
+          </div>
+          <div class="timeframes">
+            <h2><span class="current-social">5hrs</span></h2>
+            <p>last week - <span class="previous-social">10hrs</span></p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="self-care grid-item">
+        <div class="image-selfcare-icon img-container">
+          <img src="./images/icon-self-care.svg" alt="icon-self-care">
+        </div>
+        <div class="selfcare-dashborad">
+          <div class="heading">
+            <p>self Care</p>
+            <div class="ellipsis">
+              <svg width="21" height="5" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M2.5 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Zm8 0a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"
+                  fill="#BBC0FF" fill-rule="evenodd" />
+              </svg>
+            </div>
+          </div>
+          <div class="timeframes">
+            <h2><span class="current-self-care">2hrs</span></h2>
+            <p>last week - <span class="previous-self-care">2hrs</span></p>
+          </div>
+        </div>
+      </div> 
+
+  </div>
+  
+  <script src="./script.js"></script>
+</body>
+</html>
